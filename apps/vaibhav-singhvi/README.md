@@ -57,8 +57,8 @@ component code.
 **Shipped mobile apps:** none. Everything I have shipped is on the web. I would
 rather say that than stretch the definition.
 
-**Hackathon wins, teams led:** nothing I can link and prove, so I am leaving
-those lines empty rather than filling them in.
+**Hackathon wins:** none I can link and prove, so I am leaving that line empty
+rather than filling it in.
 
 ## What I did for this challenge
 
@@ -75,11 +75,25 @@ the transcript, and the pass gets that to about 22% almost entirely by deleting.
 **Track 1, bugs.** Filed as issues with measurements and reproduction steps,
 listed in [`FINDINGS.md`](FINDINGS.md).
 
+## What I am doing next
+
+**Track 3: Google Drive, bulk upload and search.** A web app is the ground I am
+strongest on, and the repo says the UI is most of the problem on that track,
+which is the part I want. The order I plan to work in is the one in `AGENTS.md`:
+Drive OAuth and a folder listing, one file through the API end to end, then the
+bulk queue with per-file progress that survives the tab closing, then search
+across transcripts, then a question across a folder if there is time.
+
+The state I expect to be hardest is a folder with hundreds of files: what the
+queue looks like part way through, what happens to the ones that failed, and how
+you pick the work back up after closing the tab. I would rather design that
+properly than get a happy path to a demo.
+
 ## What I did not do
 
-- No build track yet. Track 1 came first because it is the fastest way to show
-  how I read a screen, and because I wanted to use the product properly before
-  proposing to build on it.
+- No build track code yet. Track 1 came first because it is the fastest way to
+  show how I read a screen, and because I wanted to use the product properly
+  before proposing to build on it.
 - The prototype is a design prototype, not a build against the API. The content
   in it is sample data.
 - I tested signed out. The signed-in states (rename, delete, folders, credits)
