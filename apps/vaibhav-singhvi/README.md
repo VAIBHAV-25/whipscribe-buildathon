@@ -54,6 +54,11 @@ component code.
 [CryptoMyWorld](https://cryptomyworld.netlify.app/),
 [AI Text Summariser](https://text-sumz.netlify.app/).
 
+**Leading a team.** I led a 4-person frontend team at Polkassembly, and a team
+of 6 to 7 at Quickads. The commit and review numbers above are from the
+Polkassembly side of that: reviewing other people's work is most of what the
+job actually is once you are leading it.
+
 **Shipped mobile apps:** none. Everything I have shipped is on the web. I would
 rather say that than stretch the definition.
 
